@@ -152,6 +152,11 @@ function keyPressed() {
 		}
 	}
 
+	 if( key === 'a'|| key === "A"){
+        let a = createA('game.html','Click Me');
+        a.position(700, 700);
+    }
+    
 
 }
 function windowResized(){
